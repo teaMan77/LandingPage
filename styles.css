@@ -43,8 +43,6 @@ li {
 
 .header {
     padding: 0 48px 48px;
-    margin-top: 20px;
-    /* height: 250px; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -120,7 +118,6 @@ button {
 
 .quote-container {
     background-color: #E5E7EB;
-    /* height: 250px; */
     display: flex;
     justify-content: center;
     align-items: center;
