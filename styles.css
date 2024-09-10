@@ -1,0 +1,183 @@
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.container {
+    flex: 1 1 auto;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.secondary,
+ a{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.header {
+    padding: 0 48px 48px;
+    margin-top: 20px;
+    /* height: 250px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+}
+
+.header-item {
+    flex: 1 1 50%;
+}
+
+.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bcc3cf;
+    height: 200px;
+    width: auto;
+}
+
+.awesome {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+button {
+    background-color: #3882F6;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+
+.info {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.middle {
+    display: flex;
+    justify-content: center;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 50%;
+    flex: 1 1 auto;
+}
+
+.box {
+    border: solid 3px;
+    border-color: #3882F6;
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+.text {
+    width: 100px;
+    display: flex;
+    text-align: center;
+    font-size: 10px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    /* height: 250px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.signature {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.italic {
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.action-container {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    padding: 24px 48px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+    width: 50%;
+    border-radius: 5px;
+}
+
+.action-call {
+    color: white;
+}
+
+.action-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-border {
+    border: solid white 1px;
+}
+
+.footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
